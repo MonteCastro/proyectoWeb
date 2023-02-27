@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/87c097e08f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet"  href="css/cv1.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Eczar&family=Roboto:ital,wght@1,300&family=Syne+Mono&display=swap" rel="stylesheet">
+
+    <title>Mi CV</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favi.ico">
+</head>
+<body>
+    <header>
+        <div class="container">
+    <img class="foto" src="https://randomuser.me/api/portraits/men/35.jpg" title="cara" />
+    <div class="overlay">
+    <div class="text">Yo</div>
+  </div>
+</div>
+   <h1>Jonathan Reynolds</h1>
+   <h2 class="profesion">Auxiliar de Marketing</h2>
+   </header>
+   <nav>
+    <ul>
+      <li><a  href="#" id="mouse1"  onclick="apareCer(lado1);desAparecer(lado2,lado3,lado4,lado5)">Perfil</a></li>
+      <li><a  href="#" id="mouse2" onclick="apareCer(lado2); desAparecer(lado1,lado3,lado4,lado5)">Educacion</a></li>
+      <li><a  href="#" id="mouse3"  onclick="apareCer(lado3);desAparecer(lado1,lado2,lado4,lado5)">Experiencia</a></li>
+      <li><a  href="#" id="mouse4"  onclick="apareCer(lado4);desAparecer(lado1,lado3,lado2,lado5)">Hablidades</a></li>
+      <li><a  href="#" id="mouse5"  onclick="apareCer(lado5);desAparecer(lado1,lado3,lado4,lado2)">Contacto</a></li>
+    </ul>
+  
+</nav>
+    </header>
+    
+    <main>
+        
+        
+        
+            <address class="datos" id="lado5">
+                
+                <ul>
+                    <li><i class="fa-solid fa-map-location-dot"></i><a href="#">Av. Acueducto 512,
+                        Mérida,
+                        Yucatán</a><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d931.5078109884447!2d-89.70897606109668!3d20.951260395237863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f56722bb39acfc3%3A0x66d094bb73752cb5!2sCEDIS%20Casa%20Santos%20Lugo!5e0!3m2!1ses-419!2sar!4v1673858859933!5m2!1ses-419!2sar"
+                         width="240" height="160" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></li>
+                    <li><i class="fa-sharp fa-solid fa-reply"></i><a href="#"> Jonathan@sitioincreible.mx</a></li>
+                    <li><i class="fa-sharp fa-solid fa-phone"></i><a href="#">(81) 1234 5678</a></li>
+                    <li><i class="fa-brands fa-linkedin"></i><a href="#"> /sitioincreible</a></li>
+                </ul>
+                 <form>
+                    <input type="text">
+                    <label>Escriba aqui...</label>
+                 </form>
+            </address>
+            
+            <section class="datos" id="lado2">
+                
+                <p>Licenciatura en Mercadotecnia de la Universidad del Sur, 2018</p>
+                <a href="#" id="vermas" onclick="apareCer(infoextra); desAparecer(vermas)">ver más...</a>
+            <div  id="infoextra"style="display:none;">Graduado con exclencia en su desempeño academico, su promedio total es de 9,16.</div>
+            </section>
+            
+            <section class="datos" id="lado1">
+                
+                <p>Gran motivación para seguir perfeccionando habilidades y crecer profesionalmente. 
+                    Confío plenamente en mi capacidad de producir ideas 
+                    interesantes para campañas de marketing
+                     que no pasarán desapercibidas.</p>
+                </section>
+            
+       
+                
+<section class="datos" id="lado4">
+    
+    <ul>
+        <li>Excepcionales dotes comunicativas y de creación de redes</li>
+        <li> Buen compañero y con capacidad de trabajo independiente</li>
+        <li>Gran rendimiento bajo presión</li>
+        <li> Facilidad para seguir instrucciones y generar resultados de calidad</li>
+    </ul>
+</section>
+
+<section class="datos" id="lado3">
+    
+    <h3>13 Monos, asistente de mercadotecnia</h3>
+    <h4><time datetime="2014">(2014-2018)</time></h4>
+    <ul>
+        <li>Mantenimiento y organización de los archivos de la oficina
+        </li>
+        <li>Actualización constante de las listas de correo electrónico y contactos
+        </li>
+        <li>Monitoreo de las campañas de marketing en línea
+        </li>
+        <li>Seguimiento de la cobertura de prensa</li>
+    </ul>
+    <h3>Artículos Milenio Asistente de mercadotecnia</h3>
+    <h4><time datetime="2018"> (2018-Actualidad)</time></h4>
+    <ul>
+        <li>Encargado de la presencia en Internet de la empresa: actualización del sitio web y de las cuentas de redes sociales corporativas
+        </li>
+        <li>Seguimiento de las campañas de marketing
+        </li>
+        <li>Elaboración de presentaciones para clientes potenciales</li>
+        
+    </ul>
+</section>
+
+</main>
+<script src="scrypts/cv.js"></script>
+   </body>
+</html>
