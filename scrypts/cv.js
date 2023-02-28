@@ -1,4 +1,4 @@
-
+window.alert("Entraste en el perfil que buscabas")
  
   
   function apareCer(y)
