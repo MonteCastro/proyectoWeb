@@ -84,8 +84,7 @@ nav li {
     margin: 0px;
     height: 20px;
 }
-.datos{transition: background-color 9s;
-    transition-delay: 4s;}
+
     .datos{transition-delay: 4s;
         transition: display 4s ease-in; 
         display: none;
@@ -95,10 +94,7 @@ nav li {
         margin: 10px;
         border-radius: 5px;
     }
-        .datos:root{display: inline;}
-    .datos:hover{background-color: aquamarine;
        
-        }
         .foto:hover{width: 15%; height: 15%;}
        
     
